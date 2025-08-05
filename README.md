@@ -63,6 +63,7 @@ backend
 ├── models      # Models de données de la base de données
 ├── modules     # Fonctions réutilisables
 ├── routes      # Entrée pour les requêtes HTTP du FrontEnd
+
 frontend
 ├── src/
     ├── components/     # Composants Vue
