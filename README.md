@@ -24,7 +24,13 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 - Module de réservation de créneau en ligne avec sélection de date via **datepicker**
 - Affichage ou blocage de certaines dates dans le **datepicker** selon des données dynamiques (ex : dates déjà réservées ou indisponibles)
 - Envoi automatique d'un email de confirmation après réservation
-  ![Module de réservation](screenshots/reservation.png)
+
+```html
+<img
+  src="screenshots/reservation.png"
+  alt="Module de réservation"
+  height="200" />
+```
 
 - Achat en ligne de cartes cadeaux avec paiement via **PayPal**
 - Génération dynamique des boutons PayPal via l'API
