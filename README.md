@@ -34,7 +34,13 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 </p>
 - Achat en ligne de cartes cadeaux avec paiement via **PayPal**
 - Génération dynamique des boutons PayPal via l'API
-  ![Achat de cartes cadeaux](screenshots/cartes-cadeaux.png)
+<p align="center">
+    <img
+        src="screenshots/cartes-cadeaux.png"
+        alt="Achat Paypal"
+        width="300"
+        style="border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);" />
+</p>
 
 ### FrontEnd
 
@@ -49,41 +55,12 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 - Express
 - MongoDb
 
-## Installation
-
-```bash
-# Cloner le repository
-git clone <url-du-repository>
-
-# Installer les dépendances
-npm install
-
-# Lancer le serveur de développement
-npm run dev
-```
-
-## Scripts disponibles
-
-```bash
-# Développement
-npm run dev
-
-# Build de production
-npm run build
-
-# Prévisualisation du build
-npm run preview
-```
-
 ## Structure du projet
 
 ```
 src/
 ├── components/     # Composants Vue
 ├── views/         # Pages/Vues
-├── assets/        # Assets statiques
-├── router/        # Configuration du routeur
-└── main.js        # Point d'entrée de l'application
 ```
 
 ## Licence
