@@ -29,8 +29,7 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
     <img
         src="screenshots/reservation.png"
         alt="Module de réservation"
-        width="300"
-        style="border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);" />
+        width="300" />
 </p>
 - Achat en ligne de cartes cadeaux avec paiement via **PayPal**
 - Génération dynamique des boutons PayPal via l'API
@@ -38,7 +37,7 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
     <img
         src="screenshots/cartes-cadeaux.png"
         alt="Achat Paypal"
-        width="300"
+        width="400"
         style="border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);" />
 </p>
 
