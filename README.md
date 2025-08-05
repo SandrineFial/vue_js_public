@@ -33,6 +33,7 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 </p>
 - Achat en ligne de cartes cadeaux avec paiement via **PayPal**
 - Génération dynamique des boutons PayPal via l'API
+- Lors de la réservation, les données utilisateur (nom, email, date choisie) sont récupérées et ajoutées à la base de données MongoDB avant l'envoi automatique de l'email de confirmation.
 <p align="center">
     <img
         src="screenshots/cartes-cadeaux.png"
@@ -44,8 +45,7 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 ### FrontEnd
 
 - Vue.js 3
-- Tailwind CSS
-- DaisyUI
+- Tailwind CSS / DaisyUI
 - Font Awesome
 
 ### BackEnd
@@ -59,7 +59,8 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 ```
 src/
 ├── components/     # Composants Vue
-├── views/         # Pages/Vues
+├── views/          # Pages/Vues
+├── data/           # Données statiques
 ```
 
 ## Licence
