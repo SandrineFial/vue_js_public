@@ -25,13 +25,13 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 - Affichage ou blocage de certaines dates dans le **datepicker** selon des données dynamiques (ex : dates déjà réservées ou indisponibles)
 - Envoi automatique d'un email de confirmation après réservation
 
-```html
-<img
-  src="screenshots/reservation.png"
-  alt="Module de réservation"
-  height="200" />
-```
-
+<p align="center">
+    <img
+        src="screenshots/reservation.png"
+        alt="Module de réservation"
+        width="300"
+        style="border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);" />
+</p>
 - Achat en ligne de cartes cadeaux avec paiement via **PayPal**
 - Génération dynamique des boutons PayPal via l'API
   ![Achat de cartes cadeaux](screenshots/cartes-cadeaux.png)
