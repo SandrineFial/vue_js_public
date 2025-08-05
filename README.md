@@ -21,7 +21,7 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 
 ## Fonctionnalités
 
-- Module de réservation de créneau en ligne avec sélection de date via **datepicker**
+- Module de réservation de créneau en ligne avec sélection de date via un calendrier **datepicker**
 - Affichage ou blocage de certaines dates dans le **datepicker** selon des données dynamiques (ex : dates déjà réservées ou indisponibles)
 - Un **algorithme** calcule automatiquement en **javascript** le tarif en fonction du nombre d'heures réservées et du nombre de personnes
 - Envoi automatique d'un **email** de confirmation après réservation
