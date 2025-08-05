@@ -23,7 +23,8 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 
 - Module de réservation de créneau en ligne avec sélection de date via **datepicker**
 - Affichage ou blocage de certaines dates dans le **datepicker** selon des données dynamiques (ex : dates déjà réservées ou indisponibles)
-- Envoi automatique d'un email de confirmation après réservation
+- Un **algorithme** calcule automatiquement en **javascript** le tarif en fonction du nombre d'heures réservées et du nombre de personnes
+- Envoi automatique d'un **email** de confirmation après réservation
 
 <p align="center">
     <img
@@ -31,9 +32,10 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
         alt="Module de réservation"
         width="300" />
 </p>
+
 - Achat en ligne de cartes cadeaux avec paiement via **PayPal**
 - Génération dynamique des boutons PayPal via l'API
-- Lors de la réservation, les données utilisateur (nom, email, date choisie) sont récupérées et ajoutées à la base de données MongoDB avant l'envoi automatique de l'email de confirmation.
+- Lors de la réservation, les données utilisateur (nom, email, date choisie) sont récupérées et ajoutées à la base de données **MongoDB** avant l'envoi automatique de l'email de confirmation.
 <p align="center">
     <img
         src="screenshots/cartes-cadeaux.png"
@@ -57,10 +59,15 @@ Un projet Vue.js moderne utilisant les technologies suivantes :
 ## Structure du projet
 
 ```
-src/
-├── components/     # Composants Vue
-├── views/          # Pages/Vues
-├── data/           # Données statiques
+backend
+├── models      # Models de données de la base de données
+├── modules     # Fonctions réutilisables
+├── routes      # Entrée pour les requêtes HTTP du FrontEnd
+frontend
+├── src/
+    ├── components/     # Composants Vue
+    ├── views/          # Pages/Vues
+    ├── data/           # Données statiques
 ```
 
 ## Licence
